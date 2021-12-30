@@ -5,12 +5,12 @@ use software as rour risk!
 Connection data: directly to your esp:
 /*
  *                 RS485-TTL
-┌──────────┐                ┌─────┐
-│                3│<-TX--------RX->│         │
-│  JK-BMS        2│<-RX--------TX->│ ESP32/  │
-│                1│<----- GND ---->│ ESP8266 │
-│                 │                │         │<-- 3.3V
-└──────────┘                 ─────┘
+*┌──────────┐                ┌─────┐
+*│                3│<-TX--------RX->│         │
+*│  JK-BMS        2│<-RX--------TX->│ ESP32/  │
+*│                1│<----- GND ---->│ ESP8266 │
+*│                 │                │         │<-- 3.3V
+*└──────────┘                 ─────┘
 
 # RS485-TTL jack (4 Pin, JST 1.25mm pinch)
 ┌─────────-
