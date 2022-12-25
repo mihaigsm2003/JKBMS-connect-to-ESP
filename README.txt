@@ -6,8 +6,7 @@ Connection data: directly to your esp
 
 Big Thanks to Scotty89!
 
-
-                  RS485-TTL
+                 RS485-TTL
 ┌──────────┐                ┌─────────┐
 │         3│<-TX--------RX->│         │
 │  JK-BMS 2│<-RX--------TX->│ ESP32/  │
@@ -19,4 +18,5 @@ Big Thanks to Scotty89!
 │ 1   2   3   4  │
 │ O   O   O   O  │
 │GND  RX  TX VBAT│
-└────────────────
+└──────────────── 
+
