@@ -735,7 +735,7 @@ byte System_Reboot = 0;
 // edit data for connect mqttServer
 
 const char* mqttServer = "your IP";
-const int mqttPort = 22300;  // your port from mqtt
+const int mqttPort = 2300;  // your port from mqtt
 const char* mqttUser = "your username";
 const char* mqttPassword = "your Password";
 
